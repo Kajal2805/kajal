@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adopt a Dog</title>
+    <style>
+
+body {        
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+}
+h2 {
+    background-color: rgb(255, 211, 182);
+    font-size: 20px;
+    color:white;
+    text-align: center;
+}
+header {
+   
+    background: linear-gradient(to right, #ffd75f, #feea7b);
+    color: #fff;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1em;
+}
+
+nav .logo {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.hero {
+    text-align: center;
+    padding: 100px 20px;
+}
+
+.hero h1 {
+    font-size: 2.5em;
+    margin-bottom: 0.5em;
+}
+
+.hero p {
+    font-size: 1.2em;
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 40px;
+}
+
+section h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+#dog-cards {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.card {
+    background: #fff;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 250px;
+}
+
+.card img {
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+footer {
+    background-color: #ffd75f ;
+    color: #fff;
+    text-align: center;
+    padding: 1em 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+p{
+    font-family:'Times New Roman', Times, serif;
+    font-size: 1.5em;
+}
+#doggie{
+    padding: 30px;
+}
+
+
+</style>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">Adopt a Dog</div>
+            <ul>
+                <li><a href="#login">Login</a></li>
+                <li><a href="#dogs">Dogs</a></li>
+                <li><a href="#contact">Contact</a></li>
+                
+            </ul>
+        </nav>
+        <div class="hero">
+           <h1>Find Your New Best Friend !</h1>
+            
+            <p>Browse through our list of adorable dogs looking for a home.</p>
+            <img id="doggie" src="https://images.pexels.com/photos/1108099/pexels-photo-1108099.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" width="400px">
+            
+            <img id="doggie" src="https://images.pexels.com/photos/3628100/pexels-photo-3628100.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" width="400px" height="300px">
+            
+        </div>
+    </header>
+    <main>
+       <section id="login">
+        <h2>Login to your account</h2>
+        <section id="Login">
+            <title>Login Page</title>
+            <style>
+                #box{
+                    width: 300px;
+                    height: 290px;
+                    border: 1px solid grey;
+                    margin-left: 460px;
+                    margin-top: 35px;
+                
+                }
+                #small{
+                    width: 300px;
+                    height: 50px;
+                    border: 1px solid grey;
+                    margin-left: 460px;
+                    margin-top: 28px;
+                
+                }
+                
+                #l{
+                    width: 250px;
+                    height: 30px;
+                    margin-left: 20px;
+                }
+                #color{
+                    width: 250px;
+                    height: 30px;
+                    margin-left: 20px;
+                    color:black;
+                    background-color: rgb(255, 211, 182);
+                    border-radius: 11px;
+                }
+                
+                #pair{
+                    text-align: center;
+                    font-size: 16px;
+                }
+                #k{
+                 
+                    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+                    text-align: center;
+                }
+                
+                
+                </style>
+                </head>
+                <body>
+                        <div id="box"><br>
+                        <h3 id="k"><b>Login</b></h3>
+                        <br>  
+                        <input id="l"  type ="text" id="username" placeholder="Phone Number, username or email"><br><br>
+                        <input id="l" type="password" placeholder="Password"><br><br><br>
+                        <input id="color" type="submit" value="Log in"> <br><br><br>
+                    </div>
+                
+                    <div id="small">
+                        <p id="pair">Don't have an account? <a href="url">Sign up</a></p>
+                
+                    </div>
+                </body>
+       
+       </section>
+<section id="dogs">
+            <h2>Available Dogs for Adoption</h2>
+            <div id="dog-cards">
+                <div class="card">
+                    <img src="https://images.pexels.com/photos/1308222/pexels-photo-1308222.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Dog 1">
+                    <h3>Labrador</h3>
+                    <p>2 years old</p>
+                </div>
+                <div class="card">
+                    <img src="https://images.pexels.com/photos/6606825/pexels-photo-6606825.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"  alt="Dog 2">
+                    <h3> German Shepherd</h3>
+                    <p>3 years old</p>
+                </div>
+                <div class="card">
+                    <img src="https://images.pexels.com/photos/4481300/pexels-photo-4481300.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"  alt="Dog 3">
+                    <h3>Beagle</h3>
+                    <p>1 year old</p>
+                </div>
+                <div class="card">
+                    <img src="https://images.pexels.com/photos/2023384/pexels-photo-2023384.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="Dog 4">
+                    <h3>Rottweiler</h3>
+                    <p>6 months old</p>
+                </div>
+                <div class="card">
+                    <img src="https://images.pexels.com/photos/245035/pexels-photo-245035.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Dog 5">
+                    <h3>Husky</h3>
+                    <p>1 year old</p>
+                </div>
+                <div class="card">
+                    <img src="https://images.pexels.com/photos/2409503/pexels-photo-2409503.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Dog 6">
+                    <h3>Golden Retriever</h3>
+                    <p>10 months old</p>
+                </div>
+            </div>
+            <section id="contact">
+                <h2>Contact Us</h2>
+                <style>
+                    #div{
+                      
+                        width: 300px;
+                        height: 300px;
+                        border: 1px solid grey;
+                        margin-left: 460px;
+                        margin-top: 35px;
+                    }
+                    #in
+                    {
+                       
+                         margin-left: 20px;
+                         margin-top: 30px;
+            
+                    }
+                    p{
+            
+                        font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+                        text-align: center;
+                        font-size: 18px;
+                    }
+                    #button{
+                            margin-left: 20px;
+                            margin-top: 40px;
+                            width: 250px;
+                            height: 30px;
+                            margin-left: 20px;
+                            color:black;
+                            background-color: rgb(255, 211, 182);
+                            border-radius: 11px;
+                        }
+            </style>
+            </head>
+            <body>
+                <div id="div"> <br>
+                    <p><b>To learn more about adoption</b></p>
+                    <label id="in" for="name">Name:</label>
+                    <input id="in" type="text" id="name" name="name">
+                    <label id="in" for="email">Email:</label>
+                    <input id="in"type="email" id="email" name="email">
+                    <button id="button" type="submit">Submit</button>
+                </div>
+            
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Adopt a Dog</p>
+        <p>Copyright Dog Adoption 2024</p>
+    </footer>
+</body>
+</html>
